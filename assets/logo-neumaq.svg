@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" role="img" aria-label="Neumaq Maquinas e Equipamentos">
+  <style>
+    .wordmark { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-weight: 900; letter-spacing: 0.04em; }
+    .tagline  { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-weight: 500; letter-spacing: 0.18em; }
+  </style>
+  <rect x="0" y="6" width="6" height="32" fill="#E85D04" rx="1"/>
+  <text x="16" y="32" class="wordmark" font-size="28" fill="currentColor">NEUMAQ</text>
+  <text x="16" y="48" class="tagline" font-size="8" fill="currentColor" opacity="0.65">MAQUINAS E EQUIPAMENTOS</text>
+</svg>

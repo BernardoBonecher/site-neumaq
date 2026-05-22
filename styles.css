@@ -1,0 +1,47 @@
+/* Refinamentos visuais que complementam o Tailwind */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* compensa o header sticky ao navegar pelas ancoras */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Foco visivel mais elegante (acessibilidade) */
+:focus-visible {
+  outline: 2px solid #E85D04;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Faz o logo SVG herdar a cor de texto do contexto (branco no header escuro) */
+img[src$=".svg"] {
+  color: inherit;
+}
+
+/* Animacao sutil nas secoes ao aparecer no viewport */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Header com leve sombra quando scrollado */
+header.scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Padroniza altura dos cards de linha em telas grandes */
+@media (min-width: 1024px) {
+  #linhas article {
+    min-height: 100%;
+  }
+}

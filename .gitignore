@@ -1,0 +1,13 @@
+# Claude Code workspace (não publicar)
+.claude/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
