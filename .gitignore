@@ -11,3 +11,10 @@ desktop.ini
 # Logs / temp
 *.log
 *.tmp
+
+# Segredos — nunca versionar (repo PUBLICO)
+.env
+.env.*
+credentials/
+*.pem
+*.key
