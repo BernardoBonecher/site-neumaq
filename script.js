@@ -1,9 +1,9 @@
 // === Config ===
 // Numero do WhatsApp em formato internacional (apenas digitos): 55 + DDD + numero.
-// (51) 3471-3344 e fixo. Troque por um celular Neumaq quando tiver.
-const WHATSAPP_NUMERO = "555134713344";
+// Numero ficticio: este site e um projeto de estudo.
+const WHATSAPP_NUMERO = "5500000000000";
 const WHATSAPP_MENSAGEM = "Ola! Gostaria de solicitar um orcamento de cilindros hidraulicos.";
-const EMAIL_DESTINO = "ricardo@neumaq.com.br";
+const EMAIL_DESTINO = "contato@exemplo.com";
 const EMAIL_ASSUNTO = "Solicitacao de orcamento - Cilindros hidraulicos";
 const EMAIL_CORPO = "Ola, gostaria de solicitar um orcamento.\n\nAplicacao:\nDiametro (mm):\nCurso (mm):\nTipo de montagem:\nQuantidade:\n\nObrigado.";
 
